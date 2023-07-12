@@ -1,25 +1,62 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>
         This is my index page
     </title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 
 <body>
+    <header>
+        <h1>All About Coffee</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="grinding.html"> Grinding</a></li>
+                <li><a href="brewing.html">Brewing </a></li>
+                <li><a href="roasting.html">Roasting </a></li>
+                <li><a href="drinks.html">Drinks</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Coffee Roasting</h1>
+    <aside>
+        <figure>
+            <img src="images/coffee-berries.jpg">
+            <figcaption>unpicked coffee berries</figcaption>
+        </figure>
+        <figure>
+            <img src="images/fresh-beans.jpg">
+            <figcaption>fresh coffee beans</figcaption>
+        </figure>
+        <figure>
+            <img src="images/roasted-beans.jpg">
+            <figcaption>roasted coffee beans</figcaption>
+        </figure>
+    </aside>
     <section>
-    <p class="p1">Espresso with just a "mark" of steamed milk</p>
-    <p class="p2">"mark" of steamed milk</p>
-    <p class="p2">Espresso with just a "mark" </p>
-    <p class="p4">Espresso steamed milk</p>
-    <input id="click" type="button" value="click">
-    <input id="toggle" type="button" value="Toggle">
-    <input id="effect" type="button" value="Effect">
-</section><br><br>
+        <figure class="machine">
+            <img id="big-image" src="images/commercial-roaster.jpg">
+            <figcaption>commercial coffee roaster</figcaption>
+        </figure>
 
-    <img id="image" src="D:\Html\Working Files\Website Project\images\coffee-grinder.jpg" width="200" height="200" alt="coffee"/>
-    <input id="change" type="button" value="New Image">
+        <p id="main-p">Roasting coffee transforms the chemical and physical properties of green coffee beans. When roasted, the
+            green coffee bean expands to nearly double its original size, changing in color and density. As the bean
+            absorbs heat, its color shifts to yellow, then to a light "cinnamon" brown, and then to a rich dark brown
+            color. During roasting, oils appear on the surface of the bean. The roast will continue to darken until it
+            is removed from the heat source.</p>
+
+        <p id="next-p">Coffee can be roasted with ordinary kitchen equipment (frying pan, grill, oven, popcorn popper) or by
+            specialised appliances. A coffee roaster is a special pan or apparatus suitable to heat up and roast green
+            coffee beans.</p>
+
+        <p id="last-p">The vast majority of coffee is roasted commercially on a large scale, but small-scale commercial roasting has
+            grown significantly with the trend toward "single-origin" coffees served at specialty shops. Some coffee
+            drinkers even roast coffee at home as a hobby in order to both experiment with the flavor profile of the
+            beans and ensure themselves of the freshest possible roast.</p>
+    </section>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"
